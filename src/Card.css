@@ -1,0 +1,45 @@
+.card{
+    font-family: poppins;
+    /* border: 10px solid black; */
+    width: 350px;
+    padding: 20px;
+}
+.img-card{
+    object-fit: cover;
+    border-radius: 10px;
+    height: 400px;
+}
+.card-image{
+    position: relative;
+}
+.card-image p {
+    font-size: 12px;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    padding: 5px 15px;
+    font-weight:500 ;
+    top: 0%;
+    left: 3%;
+}
+.card-text {
+    display: flex;
+    align-items: center;
+}
+.card-text p {
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    color: #918E9B;
+}
+.card-text .stars {
+    
+    padding: 0px 10px;
+    color : black;
+}
+.price{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+

@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.img-heros{
+    width: 70%;
+    padding: 15px;
+}
+.hero-text{
+    font-size: 1rem;
+    font-family: Poppins;
+    
+    padding: 20px;
+}
+.hero-text h1{
+    font-size: 3rem;
+}
+.hero-text p{
+    max-width: 500px;
+}
